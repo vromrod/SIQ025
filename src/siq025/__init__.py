@@ -1,2 +1,5 @@
+from datetime import date
+
+
 def main() -> None:
-    print("Hello from siq025!")
+    print(f"Hola, Isabel. Hoy es {date.today().strftime('%d/%m/%Y')}.")
